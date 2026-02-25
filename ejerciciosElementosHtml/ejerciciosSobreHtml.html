@@ -513,3 +513,99 @@
         Año: 2026
     </footer>    
 </html>       
+
+<!-- 10. Incluya en la sección de cabecera una imagen representativa de HTML. Incluye en alguna 
+         parte de la sección principal enlaces a imágenes externas de Tim Berners-Lee. Esas imágenes se deben abrir en 
+         una pestaña nueva del navegador.-->
+
+<!DOCTYPE html>
+<html lang = "es-ES">
+    <head>
+        <meta charset="utf-8" />
+        <meta name = "author" content = "Germán Peláez" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Nuevo formato página web en HTML</title>
+    </head>
+    <header>
+        <h1>Explicación de elementos relacionados con el desarrollo web</h1>
+        <img src = "htmlMeme.png"></a>
+        
+        
+    </header> 
+    <nav>
+        <ul> <!--Para listas desordenadas-->
+
+            <li><a href = "explicacionCSS.html">CSS</a></li> <!--al clicar en la etiqueta <a> nos envía páginas inventadas sobre otros lenguajes de programación-->
+            <li><a href = "explicacionJavaScript.html">JavaScript teasing</a></li>
+            <li><a href = "explicacionTypeScript.html">TypeScript</a></li>
+
+        </ul>
+    </nav>  
+    <aside>
+        <h2>Sitios web de interés en relación a los lenguajes de desarrollo web</h2>
+        <ul>
+            <!-- Para crear páginas vacías simplemente creamos archivos .html con el mismo nombre en la carpeta del proyecto-->
+             <li><a href = "developer.mozille.org"> MDN Web Docs </a></li>
+             <li><a href = "pythonBegginers.html"> Python for Begginers </a></li>
+             <li><a href = "javascriptBasics.html"> JavaScript Basics </a></li>
+
+        </ul>
+        
+    </aside> 
+    <main>
+        <article>    
+            <section id = "inicios HTML">
+                <h2>La frustración en el CERN</h2>
+                <p>Durante 1989, en los fríos pasillos del CERN (La Organización Europea para la Investigación Nuclear) en Suiza, un joven físico e informático británico llamado <em>Tim Berners-Lee</em> caminaba frustrado.</p>
+                
+                <p>El problema de <em>Tim</em> no era la física de partículas, sino la información. El CERN estaba lleno de científicos brillantes con computadoras diferentes, sistemas diferentes y formatos de documentos incompatibles. 
+                    Si <em>Tim</em> quería leer el informe de un colega, a menudo tenía que caminar físicamente a otro edificio o aprender a usar un programa completamente nuevo. Era una Torre de Babel digital.</p>
+                    <p><a href = "#inicio">Volver al inicio</a></p>
+            </section>
+        </article> 
+        
+        
+
+        <section>
+            <h2>La Visión</h2>
+            <p><em>Tim</em> se sentó frente a su estación de trabajo y tuvo una visión. Imaginó un mundo donde cualquier documento pudiera conectarse con otro, sin importar en qué computadora estuviera. Llamó a este proyecto "World Wide Web". Pero para que esta telaraña mundial funcionara, <em>Tim</em> necesitaba un lenguaje común.</p>
+            <p> Un idioma que todas las computadoras pudieran hablar y entender. <em>Tim</em> recordó un viejo sistema de formateo llamado SGML, que era poderoso pero terriblemente complejo. Él necesitaba algo más sencillo, algo rápido, algo que pudiera viajar por los cables de internet sin pesar demasiado. 
+                Así que, simplificando al máximo, <em>Tim</em> comenzó a escribir las reglas de lo que hoy llamamos <strong>HTML (Hipertext Markup Language)</strong>.</p>
+            <p>Si bien <em>Tim</em> tenía como objetivo lo anterior, lo acabaría extendiendo a solventar tres grandes amenazas: la piratería, los ataques informáticos y los diseños benevolentes</p>
+            <p>    
+                <q cite="https://www.elconfidencial.com/tecnologia/2019-03-12/aniversario-internet-tim-berners-lee_1875958/blockquote">Si bien es imposible erradicar por completo los males de la primera categoría, 
+                podemos elaborar leyes y códigos para minimizar este comportamiento</q>
+            </p>  
+            <p>-<cite>Tim Berners-Lee</cite>  
+            <blockquote cite = "https://www.elconfidencial.com/tecnologia/2019-03-12/aniversario-internet-tim-berners-lee_1875958"></blockquote>
+            
+            <p> El creador de la Web tenía una visión muy clara cuando dijo que <q cite="https://www.w3.org/history">la web es para todos</q>, un principio que cambió el mundo para siempre. </p>
+            <blockquote cite="https://www.w3.org/Press/1999/TimQuotes">
+                <p>El poder de la Web está en su universalidad. El acceso por parte de cualquier persona, independientemente de su discapacidad, es un aspecto esencial.</p>
+            </blockquote>
+        </section>
+
+        <section>
+            <h2>Creando las etiquetas</h2>
+            <p>—Debe ser simple —pensó <em>Tim</em> mientras tecleaba—. Si el <strong><abbr title="Hipertext Markup Language">HTML</abbr></strong> es difícil de aprender, nadie lo usará.</p>
+            <p><em>Tim</em> definió unas pocas "etiquetas" básicas. Decidió que si querías un título, usarías <code>&lt;h1&gt;</code> en <strong><abbr title="Hipertext Markup Language">HTML</abbr></strong>. Si querías un párrafo, usarías <code>&lt;p&gt;</code>.
+                 Pero la etiqueta más revolucionaria que creó para el <strong><abbr title="Hipertext Markup Language">HTML</abbr></strong> fue la etiqueta de anclaje <code>&lt;a&gt;</code>.</p>
+            <p>Con esa pequeña etiqueta de <strong><abbr title="Hipertext Markup Language">HTML</abbr></strong>, <em>Tim</em> logró lo imposible: el hipervínculo. Ahora, una palabra en un documento podía "teletransportar" al usuario a otro documento completamente diferente.</p>
+        </section>
+
+        <section>
+            <h2>El legado</h2>
+            <p>En agosto de 1991, <em>Tim</em> publicó la primera página web de la historia. No tenía colores, ni vídeos, ni logotipos. Era, sencillamente, texto puro estructurado con <strong>HTML</strong>. En esa página, <em>Tim</em> explicaba qué era la web y cómo usarla. Cualquier persona que accediera a esa página, si hacía clic en "Ver código fuente", veía algo sorprendente: el <strong>HTML</strong> era legible por humanos. No eran ceros y unos incomprensibles. Eran palabras en inglés entre corchetes angulares.</p>
+            <p><em>Tim</em> tomó una decisión histórica: no patentó el <strong><abbr title="Hipertext Markup Language">HTML</abbr></strong>. No cobró regalías por su uso. Lo regaló al mundo. Sabía que si el <strong><abbr title="Hipertext Markup Language">HTML</abbr></strong> pertenecía a una sola empresa, la Web moriría antes de nacer. Gracias a esa generosidad y a la simplicidad del <strong><abbr title="Hipertext Markup Language">HTML</abbr></strong>, estudiantes, aficionados y científicos de todo el mundo empezaron a crear sus propias páginas. El <strong><abbr title="Hipertext Markup Language">HTML</abbr></strong> se convirtió en el ladrillo con el que se construyó la era digital.</p>
+
+            <p>Hoy, más de 30 años después, cada vez que abres una red social, lees una noticia o compras algo en línea, el navegador sigue haciendo exactamente lo mismo que hizo la computadora NeXT de <em>Tim</em> aquel día: leer el código <strong><abbr title="Hipertext Markup Language">HTML</abbr></strong> y dibujar el mundo ante tus ojos.</p>
+        </section> 
+    </main>
+
+    <footer>
+        Alumnos: Germán Peláez Gallardo, Paco Pancracio Prat, Pedro Sánchez Castejón <br>
+        Asignatura: Tecnologías del Cliente para aplicaciones web </br>
+        Universidad: Universidad de Málaga </br>
+        Año: 2026
+    </footer>    
+</html>         

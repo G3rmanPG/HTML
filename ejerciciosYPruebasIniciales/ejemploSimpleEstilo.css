@@ -7,5 +7,22 @@ p#primer_parrafo{
 
 p{
     font-family: sans-serif;
-    color: red;}
+    color: red;
+}
+
+li{
+    background-color: greenyellow;
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+
+.li-grande{
+    font-size: 3.5em;
+}
+
+a[title = "Dormir"]{
+    color: orange;
+    font-size: ;
+}
+
 
